@@ -1,0 +1,17 @@
+# Ignore build artifacts
+zig-cache/
+zig-out/
+.zig-cache/
+
+# Ignore dependency directories
+zig-modules/
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+/target

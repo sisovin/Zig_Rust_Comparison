@@ -1,0 +1,27 @@
+[package]
+name = "Zig_Rust_Comparision"
+version = "0.1.0"
+authors = ["Your name <email@example.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "hello_world"
+path = "Rust/src/hello_world/hello-world.rs"
+
+[[bin]]
+name = "error_handling"
+path = "Rust/src/error_handling/error_handling.rs"
+
+[[bin]]
+name = "memory_management"
+path = "Rust/src/memory_management/memory_management.rs"
+
+[[bin]]
+name = "concurrency"
+path = "Rust/src/concurrency/concurrency.rs"
+
+[[bin]]
+name = "compile_time_metaprogramming"
+path = "Rust/src/compile_time_metaprogramming/compile_time_metaprogramming.rs"
